@@ -70,7 +70,7 @@ def delete():
         'Content-Type': 'application/xml',
     }
     # Path to the delete XML file
-    data = open('/home/centos/miscellaneous/counter_act/delete.xml')
+    data = open('/path/to/delete.xml')
     r = requests.post('SERVER/fsapi/niCore/Lists', headers=headers, data=data,
                              verify=False, auth=('USERNAME@ACCOUNT', 'PASSWORD'))
     # 200
@@ -85,7 +85,7 @@ def pushHigh():
         'Content-Type': 'application/xml',
     }
     # Path to the file that is going to be uploaded
-    data = open('/home/centos/miscellaneous/counter_act/high.xml')
+    data = open('/path/to/high.xml')
     r = requests.post('SERVER/fsapi/niCore/Lists', headers=headers, data=data,
                              verify=False, auth=('USERNAME@ACCOUNT', 'PASSWORD'))
     print(r.status_code)
@@ -98,7 +98,7 @@ def pushMed():
         'Content-Type': 'application/xml',
     }
 
-    data = open('/home/centos/miscellaneous/counter_act/med.xml')
+    data = open('/path/to/med.xml')
     r = requests.post('https://SERVER/fsapi/niCore/Lists', headers=headers, data=data,
                              verify=False, auth=('USERNAME@ACCOUNT', 'PASSWORD'))
     print(r.status_code)
@@ -110,7 +110,7 @@ def pushLow():
         'Content-Type': 'application/xml',
     }
 
-    data = open('/home/centos/miscellaneous/counter_act/low.xml')
+    data = open('/path/to/low.xml')
     r = requests.post('https://SERVER/fsapi/niCore/Lists', headers=headers, data=data,
                              verify=False, auth=('USERNAME@ACCOUNT', 'PASSWORD'))
     print(r.status_code)
