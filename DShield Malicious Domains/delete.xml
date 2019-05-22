@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FSAPI TYPE="request" API_VERSION="2.0">
+   <TRANSACTION TYPE="delete_all_list_values">
+      <LISTS>
+         <LIST NAME="High Level Sensitivity (DShield)"/>
+         <LIST NAME="Medium Level Sensitivity (DShield)"/>
+         <LIST NAME="Low Level Sensitivity (DShield)"/>
+      </LISTS>
+   </TRANSACTION>
+</FSAPI>
