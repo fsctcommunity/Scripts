@@ -4,8 +4,10 @@ uploading the most updated content from the endpoint (ISC)
 
     Requirements:
         Python 3: 	https://www.python.org/downloads/
-		Forescout: 	- Create 3 lists with the following names: High Level Sensititivity (DShield), Medium Level Sensititivity (DShield),
-					Low Level Sensititivity (DShield).
+		Forescout: 	- Create 3 lists with the following names: 
+						- High Level Sensititivity (DShield)
+						- Medium Level Sensititivity (DShield),
+						- Low Level Sensititivity (DShield).
 					- Create a WebAPI account
 					
 Change the following in the script
